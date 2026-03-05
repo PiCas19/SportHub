@@ -1,0 +1,18 @@
+package ch.supsi.sporthub.backend.exception;
+
+/**
+ * Exception thrown when an event type received by the system is not supported.
+ * This is typically used in webhook handlers or event-driven components
+ * to handle unknown or unrecognized event types gracefully.
+ */
+public class UserImageNotFoundException extends RuntimeException {
+
+    /**
+     * Constructs a new UnsupportedEventTypeException with the specified detail message.
+     *
+     * @param message the detail message explaining the reason for the exception
+     */
+    public UserImageNotFoundException(String message) {
+        super(message);
+    }
+}

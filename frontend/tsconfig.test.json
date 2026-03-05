@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "types": [
+      "vitest"
+    ],
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
+}

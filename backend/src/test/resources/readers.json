@@ -1,0 +1,8 @@
+{
+  "readers": [
+    "ch.supsi.sporthub.backend.repository.impl.reader.PNGReader",
+    "ch.supsi.sporthub.backend.repository.impl.reader.JPGReader",
+    "java.lang.String",
+    "non.existing.ClassName"
+  ]
+}
